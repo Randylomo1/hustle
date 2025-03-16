@@ -30,6 +30,12 @@ namespace NairobiHustle.Payment
             statusText.text = "Processing payment...";
 
             float amount = float.Parse(amountInput.text);
+            string phoneNumber = phoneNumberInput.text;
+            
+            // Store phone number for future use
+            PlayerPrefs.SetString("UserPhoneNumber", phoneNumber);
+            PlayerPrefs.Save();
+            
             bool success = await mpesaService.ProcessPayment(amount);
 
             statusText.text = success ? "Payment successful!" : "Payment failed!";

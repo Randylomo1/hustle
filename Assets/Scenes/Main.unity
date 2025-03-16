@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1
+GameObject:
+  m_ObjectHideFlags: 0
+  m_Name: Main Camera
+  m_Components:
+  - !u!4 &2
+    Transform:
+      m_LocalPosition: {x: 0, y: 1, z: -10}
+--- !u!20 &3
+Camera:
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.192, g: 0.302, b: 0.475, a: 0}

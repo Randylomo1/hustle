@@ -34,6 +34,15 @@
 # Unity3D generated file on crash reports
 sysinfo.txt
 
+# Unity
+/[Tt]emp/
+/[Ll]ibrary/
+/[Bb]uild/
+/[Oo]bj/
+/[Ll]ogs/
+*.suo
+*.userprefs
+
 # Builds
 *.apk
 *.aab
@@ -78,4 +87,4 @@ crashlytics-build.properties
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
