@@ -41,7 +41,7 @@ namespace NairobiHustle.GameSystems
                         baseIncome = 5000,
                         unlockRequirements = new string[] { "trainer_certification" }
                     }
-                ]
+                }
             },
             new CareerPath
             {
@@ -72,9 +72,9 @@ namespace NairobiHustle.GameSystems
                         baseIncome = 30000,
                         unlockRequirements = new string[] { "mogul_certification" }
                     }
-                ]
+                }
             }
-        };
+        }
 
         [Header("Investment Options")]
         [SerializeField] private InvestmentOption[] investmentOptions = new InvestmentOption[]
